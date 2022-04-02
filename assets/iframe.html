@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="content"></div>
+
+  <footer>
+    <a href="https://www.eteg.com.br/conheca-a-eteg/" target="_blank">Reportar problemas.</a>
+  </footer>
+
+  <script id="requester-template" type="text/x-handlebars-template">
+    <table>
+    <tr>
+      <td>Cliente:</td>
+      <td class="data">{{name}}</td>
+    </tr>
+    {{#if tags}}
+    <tr>
+      <td>Tags:</td>
+      <td class="data">{{#each tags}}{{this}} {{/each}}</td>
+    </tr>
+    {{/if}}
+    <tr>
+      <td>E-mail:</td>
+      <td class="data">{{email}}</td>
+    </tr>
+    <tr>
+      <td>Timezone:</td>
+      <td class="data">{{timezone}}</td>
+    </tr>
+    <tr>
+      <td>Adicionado:</td>
+      <td class="data">{{created_at}}</td>
+    </tr>
+    <tr>
+      <td>Última atualização:</td>
+      <td class="data">{{updated_at}}</td>
+    </tr>
+    </table>
+  </script>
+
+  <script id="error-template" type="text/x-handlebars-template">
+    <p>{{status}} - {{statusText}} error. Por favor reporte esse problema pelo link abaixo.</p>
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
