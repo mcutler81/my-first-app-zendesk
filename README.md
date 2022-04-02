@@ -1,36 +1,23 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Xr_app" />
+  <img src="./assets/zendesk.gif" alt="Demo do funcionamento do app" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://xr_app.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Xr_app</h1>
+<h1 align="center">First Support App - Zendesk</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/xr_app?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/xr_app?color=17494D">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/xr_app?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/xr_app?color=17494D">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/xr_app?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/xr_app?color=17494D">
 
-  <img alt="License" src="https://img.shields.io/github/license/wsasouza/xr_app?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/wsasouza/xr_app?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/wsasouza/xr_app?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/wsasouza/xr_app?color=56BEB8" /> -->
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/wsasouza/xr_app?color=17494D">
+  
 </p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Xr_app 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -44,52 +31,45 @@
 
 <br>
 
-## :dart: About ##
+## :dart: About
 
-Describe your project
+Build your first Support app
 
-## :sparkles: Features ##
+## :sparkles: Features
 
 :heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
-## :rocket: Technologies ##
+## :rocket: Technologies
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://expo.io/)
+- [CSS](https://nodejs.org/en/)
+- [Javascript](https://pt-br.reactjs.org/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 ```bash
 # Clone this project
-$ git clone https://github.com/wsasouza/xr_app
+$ git clone https://github.com/wsasouza/my-first-app-zendesk
 
 # Access
-$ cd xr_app
+$ cd my-first-app-zendesk
 
-# Install dependencies
-$ yarn
 
 # Run the project
-$ yarn start
+$ zat server
 
-# The server will initialize in the <http://localhost:3000>
+# Only Zendesk environment.
 ```
 
-## :memo: License ##
+## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/wsasouza" target="_blank">Walter Santos de Andrade Souza</a>
 
