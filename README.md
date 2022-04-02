@@ -9,13 +9,13 @@
 <h1 align="center">First Support App - Zendesk</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/xr_app?color=17494D">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/wsasouza/my-first-app-zendesk?color=17494D">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/xr_app?color=17494D">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/wsasouza/my-first-app-zendesk?color=17494D">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/xr_app?color=17494D">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wsasouza/my-first-app-zendesk?color=17494D">
 
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/wsasouza/xr_app?color=17494D">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/wsasouza/my-first-app-zendesk?color=17494D">
   
 </p>
 
